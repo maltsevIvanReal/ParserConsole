@@ -28,4 +28,8 @@ public class Criteria {
 	@SerializedName("badCustomers")
 	@Expose
 	public Integer badCustomers;
+
+	public Criteria(String lastName) {
+		this.lastName = lastName;
+	}
 }
